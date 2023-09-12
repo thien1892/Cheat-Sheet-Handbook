@@ -13,6 +13,17 @@ git add .
 git remote add origin [https://[...].git]
 git commit -m "this is comment"
 git push --force origin HEAD:main
+
+# or
+git init
+git config --global user.name thien1892
+git config --global user.email thien1892@gmail.com
+git branch -M main
+git remote add origin [https://[...].git]
+
+git add .
+git commit -m "initialize repos"
+git push -u origin main
 ```
 
 # Remove directory from Git
